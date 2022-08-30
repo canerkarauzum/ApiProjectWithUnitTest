@@ -13,3 +13,5 @@ C:\Users\caner.karauzum\Desktop\Projects\ApiProjectWithUnitTest\GuideApiProjectW
 C:\Users\caner.karauzum\Desktop\Projects\ApiProjectWithUnitTest\GuideApiProjectWithUnitTest\Repository\obj\Debug\net6.0\refint\Repository.dll
 C:\Users\caner.karauzum\Desktop\Projects\ApiProjectWithUnitTest\GuideApiProjectWithUnitTest\Repository\obj\Debug\net6.0\Repository.pdb
 C:\Users\caner.karauzum\Desktop\Projects\ApiProjectWithUnitTest\GuideApiProjectWithUnitTest\Repository\obj\Debug\net6.0\ref\Repository.dll
+C:\Users\caner.karauzum\Desktop\Projects\ApiProjectWithUnitTest\GuideApiProjectWithUnitTest\Repository\bin\Debug\net6.0\Repository.runtimeconfig.json
+C:\Users\caner.karauzum\Desktop\Projects\ApiProjectWithUnitTest\GuideApiProjectWithUnitTest\Repository\obj\Debug\net6.0\Repository.genruntimeconfig.cache
