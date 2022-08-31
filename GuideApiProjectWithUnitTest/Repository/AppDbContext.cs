@@ -24,6 +24,7 @@ namespace Repository
             modelBuilder.Entity<Product>().Property(x => x.Price).IsRequired().HasColumnType("decimal(18, 2)");
             modelBuilder.Entity<Product>().Property(x => x.Color).IsRequired();
             modelBuilder.Entity<Product>().Property(x => x.Stock).IsRequired();
+            modelBuilder.Entity<Category>().Property(x => x.Id).UseIdentityColumn();
             modelBuilder.Entity<Category>().Property(x => x.Name).IsRequired();
 
             base.OnModelCreating(modelBuilder);
