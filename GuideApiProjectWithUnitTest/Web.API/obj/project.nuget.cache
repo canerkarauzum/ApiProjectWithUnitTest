@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "1887mkfBvsJBZPO4ECfvMohLIu3brb8YkxEGSy3ilILhh6e7owZGDigTkQCVTWpoQNIAW195EYrWKwWsk1Pt5Q==",
+  "dgSpecHash": "d9T1uR8dXUM+vebwalt+AmfOmIXX1pDxAbedImxfVhDLMl97s4JkGEKP3QX+wFSVXxnXyXm6Y3gzKBoyBmCqPw==",
   "success": true,
   "projectFilePath": "C:\\Users\\caner.karauzum\\Desktop\\Projects\\ApiProjectWithUnitTest\\GuideApiProjectWithUnitTest\\Web.API\\Web.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\caner.karauzum\\.nuget\\packages\\fluentvalidation\\11.2.0\\fluentvalidation.11.2.0.nupkg.sha512",
+    "C:\\Users\\caner.karauzum\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.1\\fluentvalidation.aspnetcore.11.2.1.nupkg.sha512",
+    "C:\\Users\\caner.karauzum\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.0\\fluentvalidation.dependencyinjectionextensions.11.2.0.nupkg.sha512",
     "C:\\Users\\caner.karauzum\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\caner.karauzum\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\caner.karauzum\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

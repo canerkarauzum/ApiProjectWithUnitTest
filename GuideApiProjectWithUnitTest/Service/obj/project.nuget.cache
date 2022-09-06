@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "RYar+1c+QZ/AfoQeREg6A5EtlaKRlujrvTvxPiEQjRPZ93hbSfiCbUy/ebt8UUvy3/3fHb2oiO9JrDFN5FS0yQ==",
+  "dgSpecHash": "uxIMLN/aZfPtqgkamraYSfGD5MWMCxbiqCGjIzZ9XG1Mnb9noFTBgCsIBpMEgRDLH2FSc2TmUlmoH/7p4U3r7Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\caner.karauzum\\Desktop\\Projects\\ApiProjectWithUnitTest\\GuideApiProjectWithUnitTest\\Service\\Service.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\caner.karauzum\\.nuget\\packages\\fluentvalidation\\11.2.0\\fluentvalidation.11.2.0.nupkg.sha512",
+    "C:\\Users\\caner.karauzum\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.1\\fluentvalidation.aspnetcore.11.2.1.nupkg.sha512",
+    "C:\\Users\\caner.karauzum\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.0\\fluentvalidation.dependencyinjectionextensions.11.2.0.nupkg.sha512",
     "C:\\Users\\caner.karauzum\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\caner.karauzum\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\caner.karauzum\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

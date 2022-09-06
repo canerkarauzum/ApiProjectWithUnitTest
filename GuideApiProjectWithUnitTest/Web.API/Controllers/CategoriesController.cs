@@ -21,7 +21,13 @@ namespace Web.API.Controllers
         public async Task<IActionResult> GetCategoryByIdWithProducts(int categoryId)
         {
             var category = await _categoryService.GetCategoryByIdWithProduct(categoryId);
-            return Ok(category);
+
+            if(category == null)
+            {
+                return NotFound();
+            }
+            else
+                return Ok(category);
         }
 
         // GET api/products/GetCategoriesWithProducts

@@ -2,6 +2,7 @@
 using Core.Services;
 using Microsoft.AspNetCore.Mvc;
 using Service.Services;
+using Web.API.Filters;
 
 namespace Web.API.Controllers
 {
@@ -33,11 +34,24 @@ namespace Web.API.Controllers
             return Ok(products);
         }
 
+        // GET api/products/GetProducByIdWithCategory
+        [HttpGet("GetProducByIdWithCategory")]
+        public async Task<IActionResult> GetProducByIdWithCategory(int id)
+        {
+            var products = await _productService.GetProductsWithCategory();
+            var targetProduct = products.FirstOrDefault(x => x.Id == id);
+
+            if (targetProduct != null)
+                return Ok(targetProduct);
+            else
+                return NotFound();
+        }
+
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
             var products = await _service.GetAllAsync();
-            return  Ok(products);
+            return Ok(products);
         }
 
         [HttpGet("{id}")]

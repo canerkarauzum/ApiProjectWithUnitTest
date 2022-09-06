@@ -1,6 +1,8 @@
+using Core.Entities;
 using Core.Repositories;
 using Core.Services;
 using Core.UnitOfWorks;
+using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using Repository;
 using Repository.Repositories;
@@ -8,13 +10,17 @@ using Repository.UnitOfWorks;
 using Service.Services;
 using System.Reflection;
 using System.Text.Json.Serialization;
+using Web.API.Filters;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers().AddJsonOptions(x =>
-                x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
+builder.Services.AddControllers()
+                .AddJsonOptions(x =>
+                    x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles)
+                .AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<Product>())
+                .AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<Category>());
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
