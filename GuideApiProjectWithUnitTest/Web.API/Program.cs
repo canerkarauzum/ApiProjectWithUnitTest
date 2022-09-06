@@ -10,7 +10,6 @@ using Repository.UnitOfWorks;
 using Service.Services;
 using System.Reflection;
 using System.Text.Json.Serialization;
-using Web.API.Filters;
 
 var builder = WebApplication.CreateBuilder(args);
 

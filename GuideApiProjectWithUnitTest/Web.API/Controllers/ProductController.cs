@@ -2,7 +2,6 @@
 using Core.Services;
 using Microsoft.AspNetCore.Mvc;
 using Service.Services;
-using Web.API.Filters;
 
 namespace Web.API.Controllers
 {

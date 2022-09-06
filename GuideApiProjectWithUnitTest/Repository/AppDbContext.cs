@@ -23,6 +23,7 @@ namespace Repository
             modelBuilder.Entity<Product>().Property(x => x.Name).IsRequired();
             modelBuilder.Entity<Product>().HasIndex(x => x.Name).IsUnique();
             modelBuilder.Entity<Product>().Property(x => x.Price).IsRequired().HasColumnType("decimal(18, 2)");
+            modelBuilder.Entity<Product>().Property(x => x.Color).IsRequired();
             modelBuilder.Entity<Category>().Property(x => x.Id).UseIdentityColumn();
             modelBuilder.Entity<Category>().Property(x => x.Name).IsRequired();
             modelBuilder.Entity<Category>().HasIndex(x => x.Name).IsUnique();
